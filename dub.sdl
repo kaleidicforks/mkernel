@@ -1,5 +1,5 @@
-name "mkernel"
-description "Minimalist kernel in betterC"
+name "mkernel-d"
+description "Minimalist kernel in dlang betterC"
 authors "arjun024"
 copyright "Copyright © 2019, arjun024"
 license "gpl 2.0"
