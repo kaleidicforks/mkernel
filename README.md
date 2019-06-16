@@ -15,7 +15,7 @@ This is a minimalist kernel which prints "`my first kernel`" on the screen and t
 nasm -f elf32 kernel.asm -o kasm.o
 ```
 ```
-gcc -m32 -c kernel.c -o kc.o
+dmd -m32 -c kernel.d -ofkc.o -betterC
 ```
 ```
 ld -m elf_i386 -T link.ld -o kernel kasm.o kc.o
