@@ -1,6 +1,11 @@
 mkernel
 =======
 
+Translation of minimalist kernel to betterC mode for the D programming language.
+
+As you can see, a trivial amount of work is involved...
+
+
 This is a minimalist kernel which prints "`my first kernel`" on the screen and then hangs.
 
 * The kernel is multi-boot compliant and loads with GRUB.
