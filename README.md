@@ -26,6 +26,12 @@ dmd -m32 -c kernel.d -ofkc.o -betterC
 ld -m elf_i386 -T link.ld -o kernel kasm.o kc.o
 ```
 
+or just:
+```
+./build.sh
+```
+
+
 #### Test on emulator ####
 ```
 qemu-system-i386 -kernel kernel

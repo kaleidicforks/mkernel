@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/mkernel
+mkernel.so
+mkernel.dylib
+mkernel.dll
+mkernel.a
+mkernel.lib
+mkernel-test-*
+*.exe
+*.o
+*.obj
+*.lst
